@@ -1,0 +1,12 @@
+title: My Jekyll Blog
+description: >-
+  Blog pribadi dengan Jekyll
+baseurl: "" # Subpath, kalau root kosongkan
+url: "" # URL situs
+theme: minima
+paginate: 5
+paginate_path: "/page:num/"
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+markdown: kramdown
